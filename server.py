@@ -3,20 +3,8 @@
 from jinja2 import StrictUndefined
 
 from flask import Flask, render_template
-# flash, jsonify, request, session, redirect
 
 from flask_debugtoolbar import DebugToolbarExtension
-
-# from model import db, connect_to_db, Character, Title, Episode, House
-# from model import CharTitle, CharEp, CharHouse
-
-# from search_queries import char_search_by_multiple_args, char_search_by_id
-# from search_queries import char_search_by_house
-# from search_queries import ep_search_by_id, title_search_by_id
-
-# from api_queries import search_term_char_name, wikia_char_article_id, wikia_char_thumb
-# from api_queries import char_page_etsy, char_page_ebay
-# from api_queries import item_page_etsy, item_page_ebay
 
 app = Flask(__name__)
 
